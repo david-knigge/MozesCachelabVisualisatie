@@ -100,4 +100,4 @@ if __name__ == "__main__":
             plt.legend(handles=[red_patch, black_patch, green_patch])
 
             plt.savefig("cache_usage_" + str(args.dim[0]) + "_" + str(args.dim[1]) + "_" + ("store" if op == "S" else "load") + ".png")
-            plt.show()
+            #plt.show()
