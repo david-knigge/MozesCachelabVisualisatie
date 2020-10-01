@@ -24,4 +24,4 @@ Download `mozes.py` of clone de repo, en plaats het script in je cachelab folder
 
 Met dank aan Mozes vd Kar.
 
-Known bugs: voor 61x67 klopt de output van geen kant
+Known bugs: voor 61x67 klopt de mogelijk niet :)
