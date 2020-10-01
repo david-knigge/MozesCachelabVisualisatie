@@ -13,9 +13,9 @@ De boel is redelijk gehardcode dus verwacht bugs.
     
 # usage
     
-Download `mozes.py` of clone de repo, en plaats het script in je cachelab folder. Volgende command runt test-trans voor M=32, N=32, runt de sim op de resulterende tracefile, en creert hier een heatmap van, waarbij de eerste 4 regels van de tracefile worden genegeerd.
+Download `vis.py` of clone de repo, en plaats het script in je cachelab folder. Volgende command runt test-trans voor M=32, N=32, runt de sim op de resulterende tracefile, en creert hier een heatmap van, waarbij de eerste 4 regels van de tracefile worden genegeerd.
 
-        ./python3 mozes.py 32 32 --offset 4 
+        ./python3 vis.py 32 32 --offset 4 
 
 # requirements
 
