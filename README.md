@@ -1,7 +1,6 @@
 # MozesCachelabVisualisatie
 
-Gebruik dit script op eigen risico! Dit script kan handig zijn als visuele ondersteuning bij het CacheLab.
-Creert twee .png bestandjes met daarin heatmaps voor cachegebruik bij Store en Load operaties.
+Gebruik dit script op eigen risico! Dit script is geen "officieel" onderdeel van de aangeleverde tools voor CacheLab, dus gebruik dit niet als basis voor je begrip van dit lab. Dit script kan handig zijn als visuele ondersteuning bij het CacheLab. Het scrip creert twee .png bestandjes met daarin heatmaps voor cachegebruik bij Store en Load operaties.
 
 De boel is redelijk gehardcode dus verwacht bugs.
 
@@ -14,10 +13,9 @@ De boel is redelijk gehardcode dus verwacht bugs.
     
 # usage
     
-volgende command runt test-trans voor M=32, N=32, runt de sim op de resulterende tracefile, en creert hier een heatmap van
-waarbij de eerste 4 regels van de tracefile worden genegeerd.
+Download `vis.py` of clone de repo, en plaats het script in je cachelab folder. Volgende command runt test-trans voor M=32, N=32, runt de sim op de resulterende tracefile, en creert hier een heatmap van, waarbij de eerste 4 regels van de tracefile worden genegeerd.
 
-        ./python3 mozes.py 32 32 --offset 4 
+        ./python3 vis.py 32 32 --offset 4 
 
 # requirements
 
@@ -26,4 +24,4 @@ waarbij de eerste 4 regels van de tracefile worden genegeerd.
 
 Met dank aan Mozes vd Kar.
 
-Known bugs: voor 61x67 klopt de output van geen kant
+Known bugs: voor 61x67 klopt de mogelijk niet :)
