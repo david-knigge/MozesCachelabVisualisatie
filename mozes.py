@@ -10,7 +10,8 @@ args:
     
 usage:
     
-    volgende command runt test-trans voor M=32, N=32, runt de sim op de resulterende tracefile
+    volgende command runt test-trans voor M=32, N=32, runt de sim op de resulterende tracefile, en creert hier een heatmap van
+    waarbij de eerste 4 regels van de tracefile worden genegeerd.
 
         ./python3 mozes.py 32 32 --offset 4 
 
