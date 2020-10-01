@@ -1,7 +1,6 @@
 # MozesCachelabVisualisatie
 
-Gebruik dit script op eigen risico! Dit script kan handig zijn als visuele ondersteuning bij het CacheLab.
-Creert twee .png bestandjes met daarin heatmaps voor cachegebruik bij Store en Load operaties.
+Gebruik dit script op eigen risico! Dit script is geen "officieel" onderdeel van de aangeleverde tools voor CacheLab, dus gebruik dit niet als basis voor je begrip van dit lab. Dit script kan handig zijn als visuele ondersteuning bij het CacheLab. Het scrip creert twee .png bestandjes met daarin heatmaps voor cachegebruik bij Store en Load operaties.
 
 De boel is redelijk gehardcode dus verwacht bugs.
 
