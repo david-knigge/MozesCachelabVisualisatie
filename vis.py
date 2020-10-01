@@ -39,7 +39,7 @@ if __name__ == "__main__":
 
     os.system('make')
     os.system('./test-trans -M %d -N %d' % (m, n))
-    os.system('./csim-ref -v -s 5 -E 1 -b 5 -t trace.f1 > csim_trace.tmp')
+    os.system('./csim-ref -v -s 5 -E 1 -b 5 -t trace.f0 > csim_trace.tmp')
     for op in ["L", "S"]:
 
         hmap = [[-1 for _ in range(n)] for _ in range(m)]
